@@ -1,0 +1,15 @@
+.content {
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
+:global(.am-carousel-wrap-dot > span) {
+  width: 3vw !important;
+  height: 3vw !important;
+  border-radius: 50% !important;
+  background: rgba(255,255,255,0.3) !important;
+  margin-bottom: 1vh !important;
+}
+
+:global(.am-carousel-wrap-dot-active > span) {
+  background: #fff !important;
+}

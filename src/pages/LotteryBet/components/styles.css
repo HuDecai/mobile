@@ -1,0 +1,153 @@
+.fushiTypeContainer {
+  margin: 3vw 3vw;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.lotteryNumbers {
+  padding: 3vw 0vw 3vw 4vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  & div {
+    margin: 2vw 3.4vw 2vw 0;
+  }
+}
+.lotteryNumbersHeader {
+  border-bottom: 2px solid #e3e3e3;
+  font-size: 5.3vw;
+  padding: 3vw 4vw 3vw 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lotteryOperation {
+  margin: 0 1vw;
+  color: #d0d0d0;
+}
+.lotteryOperationActive {
+  margin: 0 1vw;
+  color: #000;
+}
+
+.danshiContainer {
+  margin: 3vw 3vw;
+}
+.danshiTextarea {
+  width: 100%;
+  border-radius: 2px;
+  border: none;
+  margin: 3vw 0;
+  appearance: none;
+  resize: none;
+}
+.noticeTitle {
+  color: #5b5b5b;
+  font-size: 4vw;
+  line-height: 6vw;
+}
+.noticeItem {
+  display: flex;
+  flex-direction: column;
+  color: #5b5b5b;
+  font-size: 4vw;
+  line-height: 6vw;
+}
+
+{/**定单双*/}
+.danshuangContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.onSelectDetailNumberCard {
+  font-size: 5.3vw;
+  border: 1px solid #459ad6;
+  background-color: #459ad6;
+  height: 12vw;
+  width: 40vw;
+  line-height: 12vw;
+  text-align: center;
+  margin: 1.5vw 4.5vw;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.selectDetailNumberCard {
+  font-size: 5.3vw;
+  color: #5b5b5b;
+  border: 1px solid #c1c2c2;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 12vw;
+  width: 40vw;
+  line-height: 12vw;
+  text-align: center;
+  margin: 1.5vw 4.5vw;
+}
+
+
+{/***龙虎****/}
+.longhuContent {
+  height: 130vw;
+  background-color: #fff;
+  width: 96vw;
+  margin-left: 2vw;
+}
+
+.longhuBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.longhu1 {
+  margin-top: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.longhuCard {
+  width: 27vw;
+  height: 27vw;
+  border-radius: 50%;
+  border: 2px dashed #bababa;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onLonghuCard {
+  width: 27vw;
+  height: 27vw;
+  border-radius: 50%;
+  border: 2px solid #459ad6;
+  background-color: #459ad6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.long {
+  width: 22vw;
+}
+
+.hu {
+  width: 19vw;
+}
+
+.he {
+  width: 20vw;
+}
+
+.vs {
+  width: 33vw;
+  margin-left: -3vw;
+  margin-right: 3vw;
+}
+
+.bodpding{padding-bottom: 17vw;}

@@ -1,0 +1,111 @@
+.bankContent {
+  height: calc(100vh - 40vw);
+  margin-top: 16vw;
+  /*width: 94vw;*/
+  padding: 3vw 0;
+  width: 100vw;
+  overflow-y: scroll;
+}
+
+.titleText {
+  font-size: 4vw;
+  color: #5b5b5b;
+  padding:0 2vw;
+} 
+
+.codeBody {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 100vw;
+  height: 12vw;
+  background-color: #fff;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+  margin-top: 1vw;
+}
+
+.codeStyle {
+  width: 50vw;
+  height: 10vw;
+  margin: 1vw 0;
+}
+
+.codeImg {
+  width: 30vw;
+  height: 10vw;
+  border-radius: 4px;
+}
+
+.normalMeg {
+  font-size: 4vw;
+  color: #5b5b5b;
+  text-align: right;
+  margin-top: 1vw;
+}
+
+.normalMeg > span {
+  color: #de3c46;
+}
+
+.navBar {
+  height: calc(16vw - 1px);
+  width: 100vw;
+  border-bottom: 1px solid #c5c5c5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.headerTitle {
+  font-size: 4.5vw;
+  color: #5b5b5b;
+  font-weight: bold;
+  width: 40vw;
+  text-align: center;
+}
+
+.leftImg {
+  width: 33vw;
+  margin-left: 2vw;
+}
+
+.RigthImg {
+  width: 6vw;
+  margin-right: 2vw;
+}
+
+.leftAction, .rightAction {
+  width: 30vw;
+}
+
+.successBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  width: 100vw;
+  position: fixed;
+  top: 11vw;
+  height: 100vw;
+}
+
+.successImg {
+  width: 27vw;
+}
+
+.successText1 {
+  margin: 1vw 0;
+  color: #5b5b5b;
+}
+
+
+  
+
+

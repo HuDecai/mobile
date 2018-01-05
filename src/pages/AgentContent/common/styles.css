@@ -1,0 +1,11 @@
+.ModalContent{
+  height: 7vh;
+  display: flex;
+  justify-content:space-around;
+}
+
+.dataText {
+  border-bottom: 1px solid #459ad6;
+  width: 40vw;
+  color: #459ad6;
+}

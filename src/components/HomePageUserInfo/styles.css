@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #5b5b5b;
+}
+
+.card1 {
+  width: 49.5vw;
+  background-color: #fff;
+}
+
+.line {
+  width: 1vw;
+}
+
+.card2 {
+  margin-top: 1vw;
+  width: 49.5vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  padding: 1.5vw 0;
+  line-height: 0;
+}
+
+.card2Img {
+  width: 6.6vw;
+  margin-right: 1vw;
+}
+
+.line2 {
+  width: 1vw;
+}
+
+.card1Text {
+  font-size: 3.5vw;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 1vw 0;
+  text-align: center;
+}
+
+.card1Value {
+  font-size: 4.8vw;
+  text-align: center;
+  font-weight: bold;
+  padding: 2vw 0;
+}

@@ -1,0 +1,30 @@
+.successBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  width: 100vw;
+  position: fixed;
+  top: 11vw;
+  height: 100vw;
+}
+
+.successImg {
+  width: 27vw;
+}
+
+.successText1 {
+  margin: 1vw 0;
+  color: #5b5b5b;
+}
+
+.successText1 > span {
+  color: #df4856;
+}
+
+.successText2 {
+  margin: 5vw 0;
+  color: #64b45a;
+  border-bottom: 2px solid #64b45a;
+}

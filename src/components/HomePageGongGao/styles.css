@@ -1,0 +1,40 @@
+.carouselBottom {
+  font-size: 3.5vw;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -3px;
+  padding: 2vw;
+  color: #5b5b5b;
+}
+
+.container {
+  width: 85vw;
+  z-index: 70;
+  display: flex;
+  align-items: center;
+}
+
+.litBox {
+  height: 5vw;
+  overflow:hidden;
+  width: 75vw;
+}
+
+.noticList {
+   padding: 0 1vw;
+   margin: 0;
+   width: 60vw;
+   overflow: hidden;
+	 white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+.lotteryTitleRigth {
+  display: flex;
+  align-items: center;
+  font-size: 3.5vw;
+  width: 20vw;
+  justify-content: flex-end;
+}

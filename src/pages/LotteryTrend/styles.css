@@ -1,0 +1,111 @@
+.content {
+  height: calc(100vh - 11vw - 50px);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  overflow: scroll;
+}
+
+.trendCard {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 3vw 3vw 0;
+}
+
+.trendHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lotteryName {
+  color: #5b5b5b;
+  font-size: 5.3vw;
+  font-weight: bold;
+}
+
+.lotteryQishu {
+  color: #adadad;
+  font-size: 4vw;
+}
+
+.lotteryTouZhu {
+  font-size: 4vw;
+  color: #de3c4b;
+}
+
+.lotteryNums {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.pk10NumStyle {
+  width: 6.2vw;
+  height: 4.5vh;
+  border-radius: 3px;
+  line-height: 4.5vh;
+  text-align: center;
+  font-size: 5.3vw;
+  color: #fff;
+  margin: 2vw 2vw 2vw 0;
+}
+
+.numStyle {
+  width: 9.3vw;
+  height: 9.3vw;
+  border-radius: 50%;
+  background-color: #de3c4b;
+  line-height: 9.3vw;
+  text-align: center;
+  font-size: 5.3vw;
+  color: #fff;
+  margin: 2vw 2vw 2vw 0;
+  box-shadow: 0px 4px 1px #bfbfbf;
+}
+
+.listItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px dashed #ccc;
+  height: 5.2vh;
+  font-size: 4vw;
+  color: #5b5b5b;
+}
+
+
+.ballOne {
+  width: 9.3vw;
+  height: 9.3vw;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #e35966;
+  text-align: center;
+  line-height: 9.3vw;
+  font-size: 5.3vw;
+  margin: 2vw 2vw 2vw 0;
+}
+.ballTwo {
+  width: 9.3vw;
+  height: 9.3vw;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #47992e;
+  text-align: center;
+  line-height: 9.3vw;
+  font-size: 5.3vw;
+  margin: 2vw 2vw 2vw 0;
+}
+
+.ballThree {
+  width: 9.3vw;
+  height: 9.3vw;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #45a4d0;
+  text-align: center;
+  line-height: 9.3vw;
+  font-size: 5.3vw;
+  margin: 2vw 2vw 2vw 0;
+}

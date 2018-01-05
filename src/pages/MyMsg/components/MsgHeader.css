@@ -1,0 +1,39 @@
+.navBar {
+  height: calc(11vw - 1px);
+  width: 100vw;
+  border-bottom: 1px solid #c5c5c5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f4f4f4;
+  z-index: 9999;
+}
+
+.headerTitle {
+  font-size: 4.5vw;
+  color: #5b5b5b;
+  font-weight: bold;
+  width: 40vw;
+  text-align: center;
+}
+
+.leftImg {
+  width: 3.8vw;
+  margin-left: 2vw;
+}
+
+.leftAction {
+  width: 30vw;
+}
+
+.RigthText {
+  margin-right: 2vw;
+  color: #5b5b5b;
+  font-size: 4.5vw;
+  width: 30vw;
+  text-align: right;
+}
+  

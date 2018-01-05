@@ -1,0 +1,105 @@
+.content {
+  height: calc(100vh - 45vw);
+  overflow-y: scroll;
+}
+
+.lotteryBetHeader {
+  margin-top: 11vw;
+}
+.confirmItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94vw;
+  padding: 3vw;
+  font-size: 4vw;
+  color: #5b5b5b;
+  background-color: #fff;
+  margin: 2vw 0;
+}
+
+.confirmItem1 {
+  /*width: 100%;*/
+  padding: 3vw;
+  font-size: 4vw;
+  color: #5b5b5b;
+  background-color: #fff;
+  margin-bottom: 2vw;
+}
+
+
+
+.radioList {
+  width: 73vw;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.radioStyle {
+  margin-right: 4vw;
+}
+
+.showNumbers {
+  width: 80vw;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.showNumberAll {
+  padding: 3vw;
+  background-color: #fff;
+  color: #5b5b5b;
+  font-size: 4vw;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+
+{/****追号****/}
+.additionalContent {
+  width: 100vw;
+  padding: 3vw 0;
+  font-size: 4vw;
+  color: #5b5b5b;
+  background-color: #fff;
+  margin: 2vw 0;
+}
+
+.chaseContent {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 3vw 2vw;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.additionalCheckbox {
+  padding: 2vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tableTrStyle {
+  padding: 2vw 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4;
+}
+.tableTrWidth  {
+  width: 35vw;
+  text-align: right;
+}
+
+:global(.am-list-body) {
+  position: inherit !important;
+}
+:global(.am-list-item) {
+  position: inherit !important;
+}
+:global(.am-list-line) {
+  position: inherit !important;
+}

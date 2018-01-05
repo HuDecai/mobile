@@ -1,0 +1,48 @@
+.customContent {
+  height: calc(100vh - 11vw);
+  overflow-y: scroll;
+  margin-top: 12vw;
+}
+
+.customText {
+  font-size: 4vw;
+  color: #5b5b5b;
+  text-align: center;
+  padding: 2vw;
+}
+
+.lotteryContent1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 1vw;
+}
+
+.lotteryContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 1vw;
+}
+
+
+.imgCard {
+  position: relative;
+  margin: 1vw;
+}
+
+.imgStyle {
+  width: 30vw;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.iconStyle {
+  position: absolute;
+  width: 5.3vw;
+  height: 5.3vw;
+  z-index: 9;
+  top: -3px;
+  right: -3px;
+}

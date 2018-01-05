@@ -1,0 +1,44 @@
+.bottomBar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 16vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #d3d3d3;
+  font-size: 5vw;
+  color: #5b5b5b;
+}
+.bottomBarActive {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 16vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #91d1ff;
+  font-size: 5vw;
+  color: #fff;
+}
+.bottomBarRight {
+  background-image: url('../../assets/images/lottery-bottom-right.png');
+  background-repeat: no-repeat;
+  background-size: 35vw 16vw;
+  width: 35vw;
+  height: 16vw;
+  line-height: 16vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.bottomBarLeft {
+  width: 65vw;
+  line-height: 16vw;
+  padding-left: 10vw;
+  font-size: 5vw;
+  padding-left: 5vw;
+}

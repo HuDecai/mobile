@@ -1,0 +1,90 @@
+
+.playContent {
+  margin: 3vw;
+  width: 94vw;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vw 0;
+  font-size: 4vw;
+  color: #5b5b5b;
+}
+
+.selectPlayContentCard {
+  border-radius: 5px;
+  margin-top: 2vw;
+  height: 15vw;
+  width: 41vw;
+  border: 1px solid #5b5b5b;
+  background: url('../../assets/images/new-lottery-selected.png') no-repeat 38.4vw -0.2vw;
+  background-size: 5vw;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  margin: 1vw 0 1vw 2.3vw;
+  padding: 1vw;
+  font-size: 4vw;
+}
+
+
+.playContentCard {
+  border-radius: 5px;
+  margin-top: 2vw;
+  height: 15vw;
+  width: 41vw;
+  border: 1px dashed #b5b5b5;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  margin: 1vw 0 1vw 2.3vw;
+  padding: 1vw;
+  font-size: 4vw;
+}
+
+
+.leftCard{
+  width: 39vw;
+  display: flex;
+  justify-content:space-around;
+}
+
+.rigthCard {
+  width: 41vw;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+
+.ballOne {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #e35966;
+  text-align: center;
+  line-height: 7vw;
+}
+.ballTwo {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #47992e;
+  text-align: center;
+  line-height: 7vw;
+}
+
+.ballThree {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #45a4d0;
+  text-align: center;
+  line-height: 7vw;
+}

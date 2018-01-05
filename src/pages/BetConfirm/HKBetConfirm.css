@@ -1,0 +1,88 @@
+.content {
+  height: calc(100vh - 45vw);
+  overflow-y: scroll;
+}
+
+.lotteryBetHeader {
+  margin-top: 11vw;
+}
+.confirmItem {
+  width: 100%;
+  padding: 3vw;
+  font-size: 4vw;
+  color: #5b5b5b;
+  background-color: #fff;
+  margin: 2vw 0;
+}
+
+.formtext {
+  margin-left: 3vw;
+  font-size: 4vw;
+  color: #5b5b5b;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+}
+
+.contents > div {
+  margin: 0 2vw;
+  font-size: 3.5vw;
+  color: #5b5b5b;
+}
+
+.content1 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../assets/images/new-lottery-icon1.png');
+  cursor: pointer;
+}
+
+.content2 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../assets/images/new-lottery-icon2.png');
+  cursor: pointer;
+}
+
+.content3 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../assets/images/new-lottery-icon3.png');
+  cursor: pointer;
+}
+
+.content4 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../assets/images/new-lottery-icon4.png');
+  cursor: pointer;
+}
+
+.content5 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../assets/images/new-lottery-icon5.png');
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.content {
+  height: calc(100vh - 11vw - 50px);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  overflow: scroll;
+}
+.lotteryListHeader {
+  height: 8.5vw;
+  padding: 0 2.8vw;
+  line-height: 8.5vw;
+  font-size: 4vw;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lotteryImg {
+  height: 21.3vw;
+  width: 21.3vw;
+}
+.lotteryCell {
+  background-color: #fff;
+  padding: 3.2vw 2.6vw;
+  display: flex;
+  flex-direction: row;
+}
+.lotteryCellRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #c5c5c5;
+  width: 70vw;
+  margin-left: 2.6vw;
+}
+.lotteryName {
+  font-size: 5.3vw;
+  font-weight: bold;
+  margin-bottom: 2.1vw;
+}
+.lotteryDesc {
+  font-size: 4vw;
+  font-weight: lighter;
+}
+
+.lotteryListHeaderIcon {
+  width: 4.4vw;
+  height: 3.8vw;
+  margin-right: 1vw;
+}

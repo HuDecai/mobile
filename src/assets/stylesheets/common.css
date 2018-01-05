@@ -1,0 +1,261 @@
+{/*表单输入框样式*/}
+html, body {
+  -webkit-overflow-scrolling: touch;
+}
+
+input {
+  outline:medium;
+  padding: 0 10px;
+}
+
+input[type="text"] {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-border: none;
+  border: none;
+}
+
+input[type="password"] {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-border: none;
+  border: none;
+}
+
+select {
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+}
+
+
+{/***非全屏input 标题 **********************************************************/}
+.loginName {
+  width: 94vw;
+  height: 12vw;
+  position: relative; z-index: 1;
+  margin: 2vw 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.borderStyle {
+    position: absolute; left: 0px; right: 0; top: 0px; bottom: 0; z-index: -1;
+    width: 94vw;
+    height: 12vw;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+}
+.inputText:focus + .borderStyle {
+  transition:border linear .2s,box-shadow linear .5s;
+  border:1px solid #459ad6;
+  box-shadow:0 0 10px rgba(69,154,214,.5);
+  width: 94vw;
+  height: 12vw;
+}
+
+.inputText {
+  width: 65vw;
+  height: 10vw;
+  padding: 0 10px;
+  font-size: 4vw;
+  border: 1px solid #fff;
+}
+
+{/***非全屏input 不带标题 ***************************************************/}
+.inputTextNoTitle {
+  width: 82vw;
+  height: 10vw;
+  padding: 0 1vw;
+  font-size: 4vw;
+  margin-left: 1vw;
+  border: 1px solid #fff;
+}
+
+.inputTextNoTitle:focus + .borderStyle {
+  transition:border linear .2s,box-shadow linear .5s;
+  border:1px solid #459ad6;
+  box-shadow:0 0 10px rgba(69,154,214,.5);
+  width: 94vw;
+  height: 12vw;
+}
+
+{/***全屏input 不带标题 *******************************************************/}
+.loginNameAll {
+  width: 100vw;
+  height: 12vw;
+  position: relative; z-index: 1;
+  margin: 10px 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.borderStyleAll {
+    position: absolute;
+    left: 0px; right: 0; top: 0px; bottom: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 12vw;
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+}
+.inputTextAll:focus + .borderStyle {
+  transition:border linear .2s,box-shadow linear .5s;
+  border:1px solid #459ad6;
+  box-shadow:0 0 10px rgba(69,154,214,.5);
+  width: 100vw;
+  height: 12vw;
+}
+
+.inputTextAll {
+  width: 94vw;
+  height: 10vw;
+  padding: 0 10px;
+  font-size: 4vw;
+  border: 1px solid #fff;
+}
+
+
+.loginNameAll1 {
+  width: 100vw;
+  height: 12vw;
+  margin: 10px 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+{/***全屏select 不带标题 *******************************************************/}
+
+.selectStyle {
+  width: 100vw;
+  height: 12vw;
+  padding: 0 3vw;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  background-image: url('../../assets/images/select-imgs.png');
+  background-size: 100vw 12vw;
+  font-size: 4vw;
+}
+
+{/***非全屏select 不带标题 *******************************************************/}
+
+.selectStyleNoAll {
+  width: 94vw;
+  height: 12vw;
+  padding: 0 3vw;
+  border: 1px solid #c5c5c5;
+  background-image: url('../../assets/images/select-imgs.png');
+  background-size: 94vw 12vw;
+  font-size: 4vw;
+  margin: 2vw 0;
+}
+
+.selectStyleNoAll2 {
+  width: 88vw;
+  height: 12vw;
+  padding: 0 3vw;
+  border: 1px solid #c5c5c5;
+  background-image: url('../../assets/images/select-imgs.png');
+  background-size: 94vw 12vw;
+  font-size: 4vw;
+  margin: 2vw 0;
+  line-height: 12vw;
+  border-radius: 4px;
+}
+
+{/***小样式select 不带标题 *******************************************************/}
+
+.selectStyleSmall {
+  width: 40vw;
+  height: 12vw;
+  padding: 0 3vw;
+  border: 1px solid #c5c5c5;
+  background-image: url('../../assets/images/small-select.png');
+  background-size: 46vw 12vw;
+  font-size: 4vw;
+  line-height: 12vw;
+  margin:  2vw 0;
+  border-radius: 4px;
+}
+
+
+{/***密码框可见按钮***************/}
+.passwordSee {
+  width: 4.5vw;
+}
+
+
+{/****按钮样式通用 *****/}
+.loginFormButtom {
+  width: 94vw;
+  height: 14vw;
+  margin: 0 auto;
+  line-height: 14vw;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 5.3vw;
+  background-color: #c5c5c5;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.clickLoginFormButtom {
+  width: 94vw;
+  height: 14vw;
+  margin: 0 auto;
+  line-height: 14vw;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 5.3vw;
+  background-color: #459ad6;
+  color: #fff;
+  position: relative;
+  border-radius: 4px;
+}
+.clickLoginFormButtom:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:#7cc0f0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: opacity 600ms;
+    transition: opacity 600ms;   /*加上动画显得更自然*/
+}
+.clickLoginFormButtom:active:before{
+    opacity: 1;
+    -webkit-transition: opacity 150ms;
+    transition: opacity 150ms;
+} 
+
+.bottomButton {
+  position: fixed;
+  bottom: 3vw;
+  left: 3vw;
+}
+
+.bodyContent {
+  height: calc(100vh - 11vw);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  overflow: scroll;
+}
+
+{/*************单选**************/}
+.radioStyle {
+  width: 4vw;
+  height: 4vw;
+  background-color: #fff;
+}

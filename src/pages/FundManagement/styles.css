@@ -1,0 +1,194 @@
+.content {
+  height: calc(100vh - 16vw - 50px);
+  margin-top: 11vw;
+  width: 100vw;
+}
+.tabBarBg {
+  width: 100vw;
+  height: 14vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabBar {
+  display: flex;
+  width: 92vw;
+  height: 8vw;
+  font-size: 3.5vw;
+  border: 1px solid #459ad6;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.defaultTab {
+  width: 25%;
+  height: 8vw;
+  text-align: center;
+  color: #459ad6;
+  line-height: 8vw;
+}
+
+.defaultTab1 {
+  width: 25%;
+  height: 8vw;
+  text-align: center;
+  color: #459ad6;
+  line-height: 8vw;
+  border-left: 1px solid #459ad6;
+  border-right: 1px solid #459ad6;
+}
+
+
+.defaultTab3 {
+  width: 25%;
+  height: 8vw;
+  text-align: center;
+  color: #459ad6;
+  line-height: 8vw;
+  border-left: 1px solid #459ad6;
+}
+
+.selectedTab {
+  line-height: 8vw;
+  height: 8vw;
+  text-align: center;
+  width: 25%;
+  color: #fff;
+  background-color: #459ad6;
+}
+
+.userListContent {
+  height: calc(100vh - 32vw - 50px);
+  padding: 2vw 0;
+  background-color: #fff;
+  color: #5b5b5b;
+  font-size: 4vw;
+  overflow: scroll;
+}
+
+.userListTable {
+  border: 1px solid red;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.userListTr {
+  /*height: 11.5vw;*/
+  display: flex;
+  align-items: flex-end;
+  justify-content:space-between;
+  border-bottom: 1px solid #f4f4f4;
+  color: #5b5b5b;
+  /*padding-bottom: 2vw;*/
+  padding: 2vw 0;
+}
+
+.touzhuHeader1 {
+  width: 30vw;
+  margin-left: 2vw;
+}
+
+.touzhuHeader2 {
+  width: 30vw;
+  text-align: center;
+}
+
+.touzhuHeader3 {
+  width: 30vw;
+  text-align: right;
+  margin-right: 2vw;
+}
+
+{/******订单详情*****/}
+.orderDetail {
+  height: calc(100vh - 30vw);
+  overflow: scroll;
+  /*height: calc(100vh - 16vw - 50px);*/
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+}
+.orderDetailLotteryName {
+  text-align: center;
+  font-size: 4.5vw;
+  color: #5b5b5b;
+  font-weight: bold;
+  padding: 1vh 0;
+}
+
+.orderDetailItem {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: #fff;
+  height: 14vw;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 3.2vw;
+  color: #5b5b5b;
+}
+
+.orderDetailItem1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3vw;
+}
+
+.orderDetailItemTest {
+  margin-top: 1vw;
+  font-weight: bold;
+  word-break:break-all;
+  line-height: 4vw;
+}
+
+.orderDetailContent {
+  background-color: #fff;
+  color: #5b5b5b;
+  font-size: 3.2vw;
+  padding: 3vw;
+}
+
+{/****追号订单详情*****/}
+.chaseOrderDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5b5b5b;
+  font-size: 3.2vw;
+  padding: 3vw;
+}
+
+.OrderDetailsTr {
+  padding: 2vw;
+  background-color: #fff;
+  font-size: 3.2vw;
+  color: #5b5b5b;
+  border-bottom: 1px solid #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+{/***追号****/}
+.modalContent {
+  width: 80vw;
+  word-break:break-all;
+  text-align: left;
+}
+
+.chaseCheckbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 0;
+}
+
+.chaseRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

@@ -1,0 +1,11 @@
+.betContent {
+  height: calc(100vh - 50vw);
+  overflow-y: scroll;
+}
+.lotteryBetContainer {
+  width: 100vw;
+}
+
+.lotteryBetHeader {
+  margin-top: 11vw;
+}

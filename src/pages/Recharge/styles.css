@@ -1,0 +1,102 @@
+{/**充值中心**/}
+.titleText {
+  font-size: 4vw;
+  color: #5b5b5b;
+  padding: 2vw;
+}
+
+.titleText1 {
+  font-size: 4vw;
+  color: #5b5b5b;
+  margin: 2vw 0 0 2vw;
+}
+.Text {
+  font-size: 5.3vw;
+  color: #5b5b5b;
+  margin-left: 4vw;
+}
+
+{/**快捷支付**/}
+.moneyContent {
+  padding: 2vw 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.moneyItemSelect {
+    background-color: #7a7a7a;
+    border: 1px solid #7a7a7a;
+    color: white;
+    font-size: 4vw;
+    width: 16.7vw;
+    text-align: center;
+    height: 8vw;
+    line-height: 8vw;
+}
+
+.moneyItemNormal {
+    background-color: #f8f8f8;
+    border: 1px solid #bebebe;
+    color: #5b5b5b;
+    font-size: 4vw;
+    width: 16.7vw;
+    text-align: center;
+    height: 8vw;
+    line-height: 8vw;
+}
+
+.bottomTishi {
+  padding: 2vw 3vw;
+  font-size: 4vw;
+  color: #bcbcbc;
+  line-height: 6vw;
+}
+
+{/**网银确认页面**/}
+.rechargeDetailContainer {
+  border: 1px solid #c5c5c5;
+  background-color: #fff;
+  width: 90vw;
+  margin: 0 2vw;
+  font-size: 4vw;
+  color: #5b5b5b;
+  padding: 2vw;
+}
+
+.rechargeDetailBankContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3vh 0;
+}
+
+.rechargeDetailSubTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rechargeDetailSubTitle1 {
+  width: 25vw;
+  text-align: right;
+}
+
+.copyButton {
+  width: 12vw;
+  height: 6vw;
+  color: #fff;
+  background-color: #5b5b5b;
+  text-align: center;
+  line-height: 6vw;
+  font-size: 3.2vw;
+  border-radius: 3px;
+}
+
+.bottomText {
+  padding: 1vh 3vw;
+  color: #5b5b5b;
+  font-size: 4vw;
+  text-align: center;
+  line-height: 3vh;
+}
+

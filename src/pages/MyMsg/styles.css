@@ -1,0 +1,125 @@
+.myMsg {
+  height: calc(100vh - 11vw);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.sendMsg {
+  height: calc(100vh - 11vw);
+  position: fixed;
+  top: 11vw;
+  width: 96vw;
+  padding: 2vw;
+}
+
+.myMsgList {
+  height: calc(100vh - 25vw);
+  overflow: scroll;
+}
+
+{/*****tabBar****/}
+.tabBarBg {
+  width: 100vw;
+  height: 14vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabBar {
+  display: flex;
+  width: 92vw;
+  height: 8vw;
+  font-size: 3.5vw;
+  border: 1px solid #459ad6;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.defaultTab {
+  width: 50%;
+  height: 8vw;
+  text-align: center;
+  color: #459ad6;
+  line-height: 8vw;
+}
+
+.selectedTab {
+  line-height: 8vw;
+  height: 8vw;
+  text-align: center;
+  width: 50%;
+  color: #fff;
+  background-color: #459ad6;
+}
+
+
+{/****列表*****/}
+.msgTitle {
+  font-size: 4.8vw;
+  width: 70vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+{/******系统消息******/}
+.systemMsgInfo {
+  height: calc(100vh - 11vw);
+  position: fixed;
+  top: 11vw;
+  width: 96vw;
+  overflow: scroll;
+  background-color: #fff;
+  padding: 2vw;
+}
+
+.systemMsgTitle {
+  color: #5b5b5b;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 1vh 0;
+}
+
+.systemMsgTitle1 {
+  font-size: 4.8vw;
+  word-break:break-all;
+}
+
+.systemMsgContent {
+  line-height: 8vw;
+  padding: 3vw 0;
+  font-size: 4vw;
+  color: #5b5b5b;
+}
+
+{/***我的消息****/}
+.myMsgInfoContent {
+  height: calc(100vh - 36vw);
+  position: fixed;
+  top: 11vw;
+  width: 96vw;
+  padding: 2vw;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+{/*******发送消息*******/}
+.sendMsgRadio {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin: 1vw;
+  color: #5b5b5b;
+  font-size: 4vw;
+}
+
+.sendMsgText {
+  padding: 2vw;
+  color: #5b5b5b;
+  font-size: 4vw;
+  text-align: right;
+}

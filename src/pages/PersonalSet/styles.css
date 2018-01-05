@@ -1,0 +1,36 @@
+
+.userInfoContent2 {
+  height: calc(100vh - 31vw);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  overflow: scroll;
+}
+
+.ListCard {
+  height: 10vw;
+  position: relative;
+  margin-top: 1.5vw;
+}
+
+.userInfoText {
+  color: #5b5b5b;
+  font-size: 4vw;
+}
+
+.bottomButton {
+  position: fixed;
+  bottom: 3vw;
+  left: 3vw;
+}
+
+.bottom {
+  width: 94vw;
+  height: 13vw;
+  border: 1px solid #f4f4f4;
+  background-color: #fff;
+  text-align: center;
+  line-height: 13vw;
+  font-size: 5.3vw;
+  color: #5b5b5b;
+}

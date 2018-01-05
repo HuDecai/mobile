@@ -1,0 +1,60 @@
+.helpCenterText {
+  font-size: 4vw;
+  color: #5b5b5b;
+}
+
+.content {
+  height: calc(100vh - 11vw);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  overflow: scroll;
+}
+
+.helpContent {
+  height: calc(100vh - 16vw);
+  position: fixed;
+  top: 11vw;
+  overflow: scroll;
+  padding: 3vw;
+  line-height: 7vw;
+  color: #5b5b5b;
+  font-size: 4vw;
+}
+
+.firstItem {
+  font-size: 4.5vw;
+  font-weight: bold;
+}
+
+.playInfoTitle {
+  height: 10vw;
+  display: flex;
+  background-color: #585858;
+  color: #fff;
+  line-height: 10vw;
+}
+
+.playInfoItem1 {
+  width: 20vw;
+  text-align: center;
+}
+
+.playInfoItem2 {
+  width: 54vw;
+  text-align: center;
+}
+
+.playInfoContent {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.playInfoContentItem {
+  display: flex;
+}
+
+.playInfoItem3 {
+  width: 50vw;
+  margin-left: 4vw;
+}

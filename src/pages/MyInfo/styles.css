@@ -1,0 +1,130 @@
+.navBar {
+  height: 11vw;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f4f4f4;
+  padding: 0 2vw;
+}
+
+.leftImg {
+  width: 7vw;
+}
+
+.RigthImg {
+  width: 8.6vw;
+  margin-right: 2vw;
+}
+
+.rightImgs {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+
+.content {
+  height: calc(100vh - 11vw - 50px);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  overflow: scroll;
+}
+
+{/******用户信息********/}
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 0;
+}
+
+.userInfoLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #5b5b5b;
+  font-size: 3.5vw;
+  width: 35vw;
+}
+
+.userInfoline {
+  height: 30vw;
+  margin: 2vw 0;
+  border-right: 1px solid #c5c5c5;
+}
+
+.userInfoLeftImg {
+  width: 24vw;
+}
+
+.userInfoRigth {
+  width: 59vw;
+  padding: 0 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #5b5b5b;
+}
+
+.userInfoRigthItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh 0;
+  font-size: 4.8vw;
+}
+
+
+{/****用户信息第二部分****/}
+.userInfoContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5b5b5b;
+  font-size: 4vw;
+}
+
+.userInfoCard {
+  width: 33vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  padding: 2vw 0;
+}
+
+.userInfoCardImg {
+  width: 6.7vw;
+  height: 6.7vw;
+  margin-right: 1vw;
+}
+
+
+{/******用户信息3*******/}
+
+
+:global(.am-list-item .am-list-thumb:first-child) {
+  margin-right: 2vw !important;
+}
+
+.userInfoContent2 {
+  margin-top: 2vh;
+}
+
+.userInfoText {
+  color: #5b5b5b;
+  font-size: 4vw;
+}
+
+.ListCard {
+  height: 10vw;
+  position: relative;
+  margin-top: 1.5vw;
+}
+  

@@ -1,0 +1,217 @@
+.content {
+  height: calc(100vh - 16vw - 50px);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+}
+.formtext {
+  font-size: 4vw;
+  color: #5b5b5b;
+  margin: 2.5vw;
+}
+
+.passwordContent {
+  height: calc(100vh - 11vw);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+  overflow: scroll;
+}
+
+
+.successContent {
+  height: 49vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vw;
+  color: #5b5b5b;
+}
+
+.successText1 {
+  margin: 30px 0 10px;
+}
+
+.successImg {
+  width: 27vw;
+}
+
+.successText {
+  margin-top: 45px;
+}
+
+.successText > span {
+  color: #64b45a;
+  margin-right: 10px;
+}
+
+{/**   代理链接  *****/}
+.agentLinkQrcode {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vw;
+  color: #5b5b5b;
+}
+
+.agentLinkQrcodeImg {
+  width: 31.5vw;
+}
+
+.agentLinkQrcodeText {
+  margin-top: 3vw;
+}
+
+.agentLinkQrcodeInput {
+  width: 76vw;
+  font-size: 4vw;
+  line-height: 12vw;
+  padding: 0 1vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.agentLinkQrcodeButton {
+  width: 24vw;
+  line-height: 12vw;
+  background-color: #5b5b5b;
+  color: #fff;
+  font-size: 4vw;
+  line-height: 12vw;
+  text-align: center;
+}
+
+.agentLinkQrcodeContent {
+  display: flex;
+  width: 100vw;
+  height: 12vw;
+  background-color: #fff;
+}
+
+
+{/*****用户列表*****/}
+.dataContent {
+  height: calc(100vh - 42vw - 50px);
+  overflow: scroll;
+}
+.tabBarBg {
+  width: 100vw;
+  height: 14vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabBar {
+  display: flex;
+  width: 91.5vw;
+  height: 8vw;
+  font-size: 3.5vw;
+  border: 1px solid #459ad6;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.defaultTab {
+  width: 33.3%;
+  height: 8vw;
+  text-align: center;
+  color: #459ad6;
+  line-height: 8vw;
+}
+
+.defaultTab1 {
+  width: 33.3%;
+  height: 8vw;
+  text-align: center;
+  color: #459ad6;
+  line-height: 8vw;
+  border-left: 1px solid #459ad6;
+  border-right: 1px solid #459ad6;
+}
+
+.defaultTab2 {
+  width: 50%;
+  height: 8vw;
+  text-align: center;
+  color: #459ad6;
+  line-height: 8vw;
+}
+
+.selectedTab {
+  line-height: 8vw;
+  height: 8vw;
+  text-align: center;
+  width: 33.3%;
+  color: #fff;
+  background-color: #459ad6;
+}
+
+.selectedTab1 {
+  line-height: 8vw;
+  height: 8vw;
+  text-align: center;
+  width: 50%;
+  color: #fff;
+  background-color: #459ad6;
+}
+
+.userListContent {
+  height: 80vh;
+  background-color: #fff;
+  color: #5b5b5b;
+  font-size: 4vw;
+}
+
+.userListHeader {
+  height: 12vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.userListHeader1 {
+  width: 30vw;
+  text-align: center;
+}
+
+.userListHeader2 {
+  width: 20vw;
+  text-align: center;
+}
+
+.userListTr {
+  height: 14vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+
+{/*****团队报表****/}
+.teamContent {
+  height: calc(100vh - 25vw);
+  overflow: scroll;
+}
+.teamCard {
+  height: 14vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5b5b5b;
+  font-size: 4vw;
+  padding: 0 2vw;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+
+

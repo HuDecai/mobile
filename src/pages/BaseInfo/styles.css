@@ -1,0 +1,142 @@
+.bankContent {
+  height: calc(100vh - 11vw);
+  margin-top: 12vw;
+  width: 94vw;
+  padding: 3vw;
+  overflow-y: scroll;
+}
+
+.bankCard {
+  width: 94vw;
+  height: 25vw;
+  background-color: #fff;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  padding: 2vw 0;
+  margin-bottom: 10px;
+}
+
+.bankCardImg {
+  width: 10.5vw;
+  margin-left: 4vw;
+}
+
+.bankCardContent {
+  width: 74vw;
+  margin-right: 3vw;
+  color: #5b5b5b;
+}
+
+.bankCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 1px dashed #b5b5b5;
+}
+
+.bankCardTopText1 {
+  font-size: 5.3vw;
+  padding: 1.5vh 0 1vh;
+}
+
+.bankCardTopText2 {
+  font-size: 4vw;
+}
+
+.bankCardTopText3 {
+  font-size: 5.3vw;
+  margin-top: 3vh;
+  text-align: right;
+}
+
+.addBankContent {
+  width: 94vw;
+  height: 13vw;
+  line-height: 13vw;
+  text-align: center;
+  color: #5b5b5b;
+  background-color: #fff;
+  margin-top: 4vw;
+    margin-bottom: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBankText {
+  font-size: 8vw;
+  margin-top: -1vh;
+  margin-right: 1vw;
+}
+
+.addBankText1 {
+  font-size: 5.3vw;
+}
+
+
+{/**新增银行卡提示**/}
+.passwordContent {
+  height: calc(100vh - 36vw);
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+}
+
+{/*****添加银行卡样式***/}
+.titleText {
+  font-size: 4vw;
+  color: #5b5b5b;
+  padding:0 2vw;
+} 
+
+.kaihuhang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+{/*****删除银行卡***/}
+.bottomBotton {
+  position: fixed;
+  bottom: 2vw;
+  left: 3vw;
+}
+
+.formContent1 {
+  height: calc(100vh - 11vw);
+  position: fixed;
+  top: 11vw;
+  width: 94vw;
+  padding: 0 3vw;
+}
+
+.formtext {
+  font-size: 4vw;
+  color: #5b5b5b;
+  margin: 2vw;
+}
+
+.successBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  width: 100vw;
+  position: fixed;
+  top: 11vw;
+  height: 100vw;
+}
+
+.successImg {
+  width: 27vw;
+}
+
+.successText1 {
+  margin: 1vw 0;
+  color: #5b5b5b;
+}
+
+.borderStylebg{background-color: #ebebe4; }
+.clickLoginFormButtom{margin-bottom: 120px;}

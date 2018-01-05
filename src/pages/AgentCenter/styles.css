@@ -1,0 +1,51 @@
+.contentBody {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #c5c5c5;
+  position: fixed;
+  top: 11vw;
+  width: 100vw;
+}
+
+.contentCard {
+  width: 49.7vw;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.contentRigthCard {
+  width: 49.7vw;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.contentRigthCard:active, .contentCard:active {
+  background-color: #f4f4f4;
+}
+
+.cardRight {
+  margin-left: 3.5vw;
+  color: #5b5b5b;
+}
+
+.cardRight1 {
+  font-size: 5.3vw;
+  margin-bottom: 5px;
+}
+
+.cardRight2 {
+  font-size: 4vw;
+}
+
+.agentImg {
+  width: 9vw;
+}

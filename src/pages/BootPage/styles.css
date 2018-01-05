@@ -1,0 +1,89 @@
+.navBar {
+  height: 15vw;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.leftImg {
+  width: 33vw;
+  margin-left: 2vw;
+}
+
+.body {
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.imgBody {
+  width: 100vw;
+}
+.button {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vw;
+}
+
+.imgStyle {
+  width: 40vw;
+}
+
+.text {
+  font-size: 2vw;
+  text-align: center;
+  color: #5b5b5b;
+  margin: 1vw 0 3vw 0;
+}
+
+
+.iosBody {
+  padding: 3vw;
+  height: 100vh;
+  width: 94vw;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.iosTitle {
+  font-size: 7vw;
+  color: #459ad6;
+  text-align: center;
+  font-weight: bold;
+}
+
+.iosTitle1 {
+  font-size: 3.6vw;
+  margin: 3vw 0;
+}
+
+.iosTitle2 {
+  font-size: 3.3vw;
+  margin: 1vw 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iosTitle3 {
+  width: 89vw;
+  line-height: 5vw;
+  margin-top: 5vw;
+}
+
+.spanStyle {
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-color: #459ad6;
+  color: #fff;
+  text-align: center;
+  line-height: 5vw;
+  font-size: 3.5vw;
+  margin-right: 1vw;
+}
